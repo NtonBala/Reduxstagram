@@ -1,3 +1,4 @@
+/* eslint-disable */
 const posts = [
    {
       "code":"BAcyDyQwcXX",
