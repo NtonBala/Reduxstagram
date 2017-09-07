@@ -1,4 +1,4 @@
-import Main from '../components/Main';
+import App from '../components/App';
 import PhotoGrid from '../components/PhotoGrid';
 import Single from '../components/Single';
 import {itemPath} from '../helpers/routes/index';
@@ -6,7 +6,7 @@ import React from 'react';
 
 export default {
     path: '/',
-    component: Main,
+    component: App,
     indexRoute: {
         component: PhotoGrid
     },
