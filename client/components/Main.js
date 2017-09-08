@@ -11,3 +11,5 @@ const Main = (props) => (
 export default Main;
 
 //use cloneElement() function to pass props of our container to our children
+//so among other props of Maint we'll pass the result of our mapStateToProps & mapDispatchToProps
+//functions down to its first child
