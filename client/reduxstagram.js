@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import css from './styles/style.styl';
-import {Router, browserHistory} from 'react-router';
+import {Router} from 'react-router';
 import routes from './routes/index';
 import {Provider} from 'react-redux';
 import store, {history} from './store';
